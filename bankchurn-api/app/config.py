@@ -26,7 +26,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "Banckchurn API"
+    PROJECT_NAME: str = "Banckchurn API Andres Torres"
 
     class Config:
         case_sensitive = True
@@ -68,3 +68,4 @@ def setup_app_logging(config: Settings) -> None:
 
 
 settings = Settings()
+
